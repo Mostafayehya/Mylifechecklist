@@ -3,7 +3,10 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="first_soul">pray Fajr</string>
-    <string name="second_soul">recitate Azkar</string>
+    <string name="first_soul">Pray Fajr</string>
+    <string name="second_soul">Recitate Azkar</string>
+    <string name="third_soul">Read Quran</string>
+    <string name="fourth_soul">Study creed for 30 minutes</string>
+    <string name="fifth_soul">Listen to Quran</string>
 
 </resources>
