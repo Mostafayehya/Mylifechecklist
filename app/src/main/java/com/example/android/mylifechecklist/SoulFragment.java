@@ -6,7 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.CheckBox;
+
+import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -22,9 +24,11 @@ public class SoulFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        TextView textView = new TextView(getActivity());
-        textView.setText("soul");
-        return textView;
+
+        ArrayList<CheckBox> souldToDos = new ArrayList<>();
+        souldToDos.add(new CustomCheckBox(getActivity(), R.string.first_soul));
+
+        return container;
     }
 
 }

@@ -6,7 +6,19 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="shit happens"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="22dp"
         />
+
+    <TextView
+        android:id="@+id/todo_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dp"
+        android:textSize="@dimen/text_size"
+        android:text="Hello"/>
 
 </LinearLayout>
