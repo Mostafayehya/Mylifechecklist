@@ -66,7 +66,7 @@ public class MindFragment extends Fragment {
         mindToDos.add(toDo);
 
 
-        TodoAdapter toDoAdapter = new TodoAdapter(getActivity(), mindToDos);
+        TodoAdapter toDoAdapter = new TodoAdapter(getActivity(), mindToDos,R.color.colorMindFragment);
 
         ListView todoList = (ListView) rootView.findViewById(R.id.todo_listview);
         todoList.setAdapter(toDoAdapter);

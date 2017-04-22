@@ -66,7 +66,7 @@ public class BodyFragment extends Fragment {
         bodyToDos.add(toDo);
 
 
-        TodoAdapter toDoAdapter = new TodoAdapter(getActivity(), bodyToDos);
+        TodoAdapter toDoAdapter = new TodoAdapter(getActivity(), bodyToDos , R.color.colorBodyFragment);
 
         ListView todoList = (ListView) rootView.findViewById(R.id.todo_listview);
         todoList.setAdapter(toDoAdapter);

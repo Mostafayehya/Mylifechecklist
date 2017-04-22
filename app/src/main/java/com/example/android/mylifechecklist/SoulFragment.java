@@ -48,7 +48,7 @@ public class SoulFragment extends Fragment {
         toDo.setText(R.string.fifth_soul);
         soulToDos.add(toDo);
 
-        TodoAdapter toDoAdapter = new TodoAdapter(getActivity(), soulToDos);
+        TodoAdapter toDoAdapter = new TodoAdapter(getActivity(), soulToDos,R.color.colorSoulFragment);
 
         ListView todoList = (ListView) rootView.findViewById(R.id.todo_listview);
         todoList.setAdapter(toDoAdapter);

@@ -66,7 +66,7 @@ public class HeartFragment extends Fragment {
         heartToDos.add(toDo);
 
 
-        TodoAdapter toDoAdapter = new TodoAdapter(getActivity(), heartToDos);
+        TodoAdapter toDoAdapter = new TodoAdapter(getActivity(), heartToDos,R.color.colorHeartFragment);
 
         ListView todoList = (ListView) rootView.findViewById(R.id.todo_listview);
         todoList.setAdapter(toDoAdapter);

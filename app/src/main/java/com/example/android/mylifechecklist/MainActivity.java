@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         ViewPager fragmentViewPager = (ViewPager) findViewById(R.id.fragments_container);
 
         TabLayout fragmentTabs = (TabLayout) findViewById(R.id.fragmets_tab);
+        fragmentTabs.setBackgroundColor(getResources().getColor(R.color.TabColor));
 
         FragmentAdapter FA = new FragmentAdapter(getSupportFragmentManager());
 

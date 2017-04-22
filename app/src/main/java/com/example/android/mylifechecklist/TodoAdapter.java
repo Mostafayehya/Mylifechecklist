@@ -15,24 +15,29 @@ import java.util.ArrayList;
 
 public class TodoAdapter extends ArrayAdapter<CheckBox> {
 
-    public TodoAdapter(Context context, ArrayList<CheckBox> items) {
+    int itemListColor;
+
+    public TodoAdapter(Context context, ArrayList<CheckBox> items, int color) {
 
         super(context, 0, items);
+        itemListColor = color;
     }
 
 
     @Override
-    public View getView(int position,  View convertView,ViewGroup parent) {
+    public View getView(int position, View convertView, ViewGroup parent) {
         View listItemView = convertView;
         if (listItemView == null) {
             //notice the difference between inflating the xml file in
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
+
+      //  listItemView.setBackgroundColor(itemListColor);
         //get the first item of the todolist
         CheckBox currentCheckBox = getItem(position);
         //referencing the checkBox in the xml file
-        CheckBox checkBoxView  = (CheckBox) listItemView.findViewById(R.id.checkbox_view);
+        CheckBox checkBoxView = (CheckBox) listItemView.findViewById(R.id.checkbox_view);
 
         checkBoxView.setText(currentCheckBox.getText());
         //
