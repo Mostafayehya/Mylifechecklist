@@ -48,21 +48,10 @@ public class SoulFragment extends Fragment {
         toDo.setText(R.string.fifth_soul);
         soulToDos.add(toDo);
 
-        toDo = new CheckBox(getActivity());
-        toDo.setText(R.string.fifth_soul);
-        soulToDos.add(toDo);
-
-
-        toDo = new CheckBox(getActivity());
-        toDo.setText(R.string.fifth_soul);
-        soulToDos.add(toDo);
-
-
         TodoAdapter toDoAdapter = new TodoAdapter(getActivity(), soulToDos);
 
         ListView todoList = (ListView) rootView.findViewById(R.id.todo_listview);
         todoList.setAdapter(toDoAdapter);
         return rootView;
     }
-
 }

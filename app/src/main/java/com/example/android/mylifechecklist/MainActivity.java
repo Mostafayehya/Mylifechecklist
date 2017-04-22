@@ -16,8 +16,6 @@ public class MainActivity extends AppCompatActivity {
 
         TabLayout fragmentTabs = (TabLayout) findViewById(R.id.fragmets_tab);
 
-
-
         FragmentAdapter FA = new FragmentAdapter(getSupportFragmentManager());
 
         fragmentTabs.setupWithViewPager(fragmentViewPager);

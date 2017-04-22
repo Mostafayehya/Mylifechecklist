@@ -9,4 +9,33 @@
     <string name="fourth_soul">Study creed for 30 minutes</string>
     <string name="fifth_soul">Listen to Quran</string>
 
+
+    <string name="first_mind">Study at least 3 hours of android</string>
+    <string name="second_mind">Review your effectiveness</string>
+    <string name="third_mind">Read for 30 minutes about productivity</string>
+    <string name="fourth_mind">Study for FEE</string>
+    <string name="fifth_mind">Review your memory techniques Deck</string>
+    <string name="sixth_mind">Read on Quora</string>
+    <string name="seventh_mind">Reread 7 habits</string>
+    <string name="eighth_mind">Solve an algorithmic problem</string>
+
+    <string name="first_body">Eat health breakfast</string>
+    <string name="second_body">Do cold start</string>
+    <string name="third_body">Sleep before 11 pm</string>
+    <string name="fourth_body">Do 7 minutes workout</string>
+    <string name="fifth_body">Fast 2 days a week</string>
+    <string name="sixth_body">Go running 2 days a week</string>
+    <string name="seventh_body">Have a delicious meal and desert every week</string>
+    <string name="eighth_body">Have a shower!!</string>
+
+    <string name="first_heart">Call mom</string>
+    <string name="second_heart">Call some friend</string>
+    <string name="third_heart">Call  your brothers </string>
+    <string name="fourth_heart">Give a present to some friend</string>
+    <string name="fifth_heart">Have a deep conversation with a friend every week</string>
+    <string name="sixth_heart">Target some new friends who have the same interests as you</string>
+    <string name="seventh_heart">Introduce yourself to a new person every week</string>
+    <string name="eighth_heart">Hang out with a friend every week</string>
+
+
 </resources>
