@@ -25,15 +25,17 @@ public class TodoAdapter extends ArrayAdapter<CheckBox> {
     public View getView(int position,  View convertView,ViewGroup parent) {
         View listItemView = convertView;
         if (listItemView == null) {
+            //notice the difference between inflating the xml file in
             listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
+        //get the first item of the todolist
         CheckBox currentCheckBox = getItem(position);
-
+        //referencing the checkBox in the xml file
         CheckBox checkBoxView  = (CheckBox) listItemView.findViewById(R.id.checkbox_view);
 
         checkBoxView.setText(currentCheckBox.getText());
-
+        //
         return listItemView;
     }
 }

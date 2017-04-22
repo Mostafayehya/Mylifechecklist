@@ -33,4 +33,17 @@ public class FragmentAdapter extends FragmentPagerAdapter {
     public int getCount() {
         return 4;
     }
+
+    @Override
+    public CharSequence getPageTitle(int position) {
+
+        if (position == 0)
+            return "Soul";
+        else if (position == 1) {
+            return "Mind";
+        } else if (position == 2) {
+            return "Heart";
+        } else
+            return "Body";
+    }
 }

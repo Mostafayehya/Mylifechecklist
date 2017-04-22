@@ -27,15 +27,37 @@ public class SoulFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.todo_list, container, false);
         ArrayList<CheckBox> soulToDos = new ArrayList<>();
+
         CheckBox toDo = new CheckBox(getActivity());
         toDo.setText(R.string.first_soul);
         soulToDos.add(toDo);
 
+        toDo = new CheckBox(getActivity());
         toDo.setText(R.string.second_soul);
         soulToDos.add(toDo);
-//        soulToDos.add(R.string.fifth_soul);
-//        soulToDos.add(R.string.third_soul);
-//        soulToDos.add(R.string.fourth_soul);
+
+        toDo = new CheckBox(getActivity());
+        toDo.setText(R.string.third_soul);
+        soulToDos.add(toDo);
+
+        toDo = new CheckBox(getActivity());
+        toDo.setText(R.string.fourth_soul);
+        soulToDos.add(toDo);
+
+        toDo = new CheckBox(getActivity());
+        toDo.setText(R.string.fifth_soul);
+        soulToDos.add(toDo);
+
+        toDo = new CheckBox(getActivity());
+        toDo.setText(R.string.fifth_soul);
+        soulToDos.add(toDo);
+
+
+        toDo = new CheckBox(getActivity());
+        toDo.setText(R.string.fifth_soul);
+        soulToDos.add(toDo);
+
+
         TodoAdapter toDoAdapter = new TodoAdapter(getActivity(), soulToDos);
 
         ListView todoList = (ListView) rootView.findViewById(R.id.todo_listview);
